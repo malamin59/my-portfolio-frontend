@@ -1,6 +1,6 @@
-My Portfolio Frontend
+## My Portfolio Frontend
 
-A modern, responsive developer portfolio built with Next.js 16, React, TypeScript, and Tailwind CSS v4. Designed with reusable components, clean code, and a scalable architecture.
+**A modern, responsive developer portfolio built with Next.js 16, React, TypeScript, and Tailwind CSS v4. Designed with reusable components, clean code, and a scalable architecture.**
 
 ✨ Features
 
