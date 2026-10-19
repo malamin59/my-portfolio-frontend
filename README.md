@@ -1,36 +1,175 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+My Portfolio Frontend
 
-## Getting Started
+A modern, responsive developer portfolio built with Next.js 16, React, TypeScript, and Tailwind CSS v4. Designed with reusable components, clean code, and a scalable architecture.
 
-First, run the development server:
+✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
+Responsive portfolio website
+
+Home, About, Projects, Achievements, Certificates, Services, and Contact pages
+
+Dynamic project detail routes
+
+Reusable UI and layout components
+
+Shared configuration, utilities, hooks, services, and types
+
+Dashboard foundation for future expansion
+
+Scalable, feature-based architecture
+
+🛠️ Tech Stack
+
+Technology
+
+Purpose
+
+Next.js
+
+React framework and App Router
+
+React
+
+UI development
+
+TypeScript
+
+Type safety
+
+Tailwind CSS v4
+
+Styling
+
+pnpm
+
+Package management
+
+Redux Toolkit
+
+Planned state management
+
+📁 Project Structure
+
+my-portfolio/
+├── app/
+│   ├── (pages)/
+│   │   ├── about/page.tsx
+│   │   ├── achievements/page.tsx
+│   │   ├── certificates/page.tsx
+│   │   ├── contact/page.tsx
+│   │   ├── projects/
+│   │   │   ├── page.tsx
+│   │   │   └── [slug]/page.tsx
+│   │   └── services/page.tsx
+│   ├── dashboard/
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── loading.tsx
+│   ├── not-found.tsx
+│   ├── page.tsx
+│   └── providers.tsx
+├── components/
+│   ├── ui/
+│   ├── shared/
+│   ├── layout/
+│   └── sections/
+├── core/
+│   ├── config/
+│   ├── hooks/
+│   ├── lib/
+│   ├── services/
+│   └── types/
+├── features/
+├── store/
+├── data/
+├── public/
+│   ├── images/
+│   └── icons/
+├── .gitignore
+├── eslint.config.mjs
+├── next.config.ts
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+├── README.md
+└── tsconfig.json
+
+🚀 Getting Started
+
+Prerequisites
+
+Node.js
+
+pnpm
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/YOUR_USERNAME/my-portfolio-frontend.git
+
+Navigate to the project directory:
+
+cd my-portfolio-frontend
+
+Install dependencies:
+
+pnpm install
+
+Start the development server:
+
 pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🧱 Architecture Principles
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Reusable components: Build consistent UI without unnecessary duplication.
 
-## Learn More
+DRY: Keep shared logic and styles maintainable.
 
-To learn more about Next.js, take a look at the following resources:
+Feature-based organization: Group feature-specific components and logic together.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Type safety: Use TypeScript to improve code reliability.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Scalability: Keep the frontend organized as new features are added.
 
-## Deploy on Vercel
+🗺️ Roadmap
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Build responsive portfolio UI
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Implement reusable components
+
+Add project data and detail pages
+
+Add dark mode
+
+Integrate Redux Toolkit if shared client state requires it
+
+Implement authentication and dashboard features
+
+Add notifications, real-time chat, and AI assistant
+
+Connect backend APIs
+
+📌 Project Status
+
+In Development — Features and architecture are being implemented progressively.
+
+## 👨‍💻 Author
+
+**Al Amin Patwary**  
+Full Stack Developer
+
+- **GitHub:** [@malamin59](https://github.com/malamin59)
+- **Portfolio:** [alamin-15553.web.app](https://alamin-15553.web.app/)
+- **LinkedIn:** [alamin-epb](https://www.linkedin.com/in/alamin-epb/)
+- **Email:** [alamindev.epb@gmail.com](mailto:alamindev.epb@gmail.com)
+- **WhatsApp:** [+880 1622-018102](https://wa.me/8801622018102)
+
+---
+
+Built with ❤️ using Next.js and TypeScript.
